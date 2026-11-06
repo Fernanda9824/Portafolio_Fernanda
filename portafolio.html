@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de desarrollo de software y diseño de experiencias digitales.">
+  <title>Portafolio | Fer · Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Fer, ir al inicio">
+      <span class="brand-mark" id="logo">f.</span>
+      <span class="brand-copy"><strong>Fer</strong><small>portafolio digital</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+          <a href="index.html">Inicio</a>
+          <a href="sobre-mi.html">Sobre mí</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="portafolio.html" class="is-active" aria-current="page">Portafolio</a>
+          <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main class="page-main" id="contenido">
+    <div class="container">
+      <div class="page-heading">
+        <p class="eyebrow">Práctica, aprendizaje y creación</p>
+        <h1 id="titulo-principal">Pequeños proyectos,<span class="accent-rose"> grandes aprendizajes.</span></h1>
+        <p class="lead">Una selección de proyectos académicos en los que he puesto en práctica conceptos de programación, diseño de interfaces y manejo de información.</p>
+      </div>
+      <section class="card-grid" aria-label="Proyectos académicos">
+        <article class="project-card">
+          <img src="assets/proyecto-runtrack.svg" alt="Vista ilustrada de una aplicación móvil de seguimiento de actividad y sensores.">
+          <div class="project-content">
+            <span class="project-meta">Aplicación móvil · Android</span>
+            <h2>RunTrack</h2>
+            <p>Práctica enfocada en el monitoreo del movimiento mediante sensores del dispositivo, como el acelerómetro y el giroscopio.</p>
+            <div class="project-tags"><span>Kotlin</span><span>Sensores</span><span>Android Studio</span></div>
+            <span class="text-link">Proyecto académico <span aria-hidden="true">✿</span></span>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/proyecto-stockmanager.svg" alt="Vista ilustrada de un panel de inventario con existencias y movimientos.">
+          <div class="project-content">
+            <span class="project-meta">Aplicación móvil · Persistencia</span>
+            <h2>StockManager</h2>
+            <p>Aplicación de inventario para registrar entradas y salidas de productos y conservar movimientos mediante una base de datos local.</p>
+            <div class="project-tags"><span>Kotlin</span><span>Room</span><span>CRUD</span></div>
+            <span class="text-link">Proyecto académico <span aria-hidden="true">✿</span></span>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/proyecto-vida-activa.svg" alt="Vista ilustrada de una interfaz web para gestionar actividades de un centro deportivo.">
+          <div class="project-content">
+            <span class="project-meta">Análisis y diseño · Sistema web</span>
+            <h2>Vida Activa</h2>
+            <p>Proyecto de análisis y diseño de un sistema para la gestión de un centro deportivo, con modelos y propuestas de interfaz.</p>
+            <div class="project-tags"><span>UML</span><span>UX</span><span>Prototipado</span></div>
+            <span class="text-link">Proyecto académico <span aria-hidden="true">✿</span></span>
+          </div>
+        </article>
+      </section>
+      <aside class="portfolio-note">
+        <span aria-hidden="true">✳</span>
+        <p>Este portafolio presenta ejercicios y proyectos desarrollados durante mi formación. El contenido puede ampliarse conforme avance mi experiencia y se publiquen nuevas versiones.</p>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© 2026 · Fer. Hecho con calma, HTML y CSS.</p>
+      <div class="footer-links">
+        <a href="servicios.html">Servicios</a>
+        <a href="portafolio.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
